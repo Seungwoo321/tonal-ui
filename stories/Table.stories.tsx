@@ -1,36 +1,35 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Table, TableHead, TableBody, TableRow, TableHeader, TableCell } from '../src/components/Table';
+import { Table } from '../src/components';
 
-const meta: Meta<typeof Table> = {
+const meta: Meta = {
   title: 'Components/Table',
-  component: Table,
 };
 
 export default meta;
-type Story = StoryObj<typeof Table>;
+type Story = StoryObj;
 
 export const Default: Story = {
   render: () => (
-    <Table>
-      <TableHead>
-        <TableRow>
-          <TableHeader>Name</TableHeader>
-          <TableHeader>Status</TableHeader>
-          <TableHeader>Date</TableHeader>
-        </TableRow>
-      </TableHead>
-      <TableBody>
-        <TableRow>
-          <TableCell>Article One</TableCell>
-          <TableCell>Published</TableCell>
-          <TableCell>2026-03-20</TableCell>
-        </TableRow>
-        <TableRow>
-          <TableCell>Article Two</TableCell>
-          <TableCell>Draft</TableCell>
-          <TableCell>2026-03-22</TableCell>
-        </TableRow>
-      </TableBody>
-    </Table>
+    <Table.Root>
+      <Table.Head>
+        <Table.Row>
+          <Table.HeaderCell>Name</Table.HeaderCell>
+          <Table.HeaderCell>Status</Table.HeaderCell>
+          <Table.HeaderCell>Date</Table.HeaderCell>
+        </Table.Row>
+      </Table.Head>
+      <Table.Body>
+        <Table.Row>
+          <Table.Cell>Article One</Table.Cell>
+          <Table.Cell>Published</Table.Cell>
+          <Table.Cell>2026-03-20</Table.Cell>
+        </Table.Row>
+        <Table.Row>
+          <Table.Cell>Article Two</Table.Cell>
+          <Table.Cell>Draft</Table.Cell>
+          <Table.Cell>2026-03-22</Table.Cell>
+        </Table.Row>
+      </Table.Body>
+    </Table.Root>
   ),
 };
