@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.3.0-beta.0](https://github.com/Seungwoo321/tonal-ui/compare/v0.2.0...v0.3.0-beta.0) (2026-03-27)
+
+### Features
+
+* **styles:** add consumer-focused CSS exports for external apps ([c8d2889](https://github.com/Seungwoo321/tonal-ui/commit/c8d2889ff1206a0b4436907f31aa5648aa0dea89))
+
+### Refactoring
+
+* **card:** update card variant styles and border radius ([1d2913b](https://github.com/Seungwoo321/tonal-ui/commit/1d2913b25cd13d8fa11173e5f4a16b786b04a14d))
+
 ## [0.2.0](https://github.com/Seungwoo321/tonal-ui/compare/v0.2.0-beta.0...v0.2.0) (2026-03-27)
 
 ## 0.2.0-beta.0 (2026-03-27)
