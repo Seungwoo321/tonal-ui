@@ -9,3 +9,4 @@
 @import "../tokens/theme.css";
 
 @source "../components";
+@source "./safelist.txt";
