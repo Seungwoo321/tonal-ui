@@ -15,7 +15,7 @@
   --color-surface-container-high: var(--palette-neutral-200);
   --color-surface-container-highest: var(--palette-neutral-250);
   --color-surface-variant: var(--palette-neutral-250);
-  --color-surface-tint: var(--palette-blue-600);
+  --color-surface-tint: var(--palette-blue-550);
 
   /* ── Primary ── */
   --color-primary: var(--palette-blue-600);
@@ -91,7 +91,7 @@
 
 .dark {
   /* ── Surface hierarchy ── */
-  --color-surface: var(--palette-neutral-950);
+  --color-surface: var(--palette-neutral-940);
   --color-surface-bright: var(--palette-neutral-875);
   --color-surface-dim: var(--palette-neutral-950);
   --color-surface-container: var(--palette-neutral-850);
@@ -100,7 +100,7 @@
   --color-surface-container-high: var(--palette-neutral-925);
   --color-surface-container-highest: var(--palette-neutral-935);
   --color-surface-variant: var(--palette-neutral-700);
-  --color-surface-tint: var(--palette-blue-600);
+  --color-surface-tint: var(--palette-blue-550);
 
   /* ── Primary ── */
   --color-primary: var(--palette-blue-500);
@@ -167,9 +167,9 @@
   /* ── Inverse ── */
   --color-inverse-surface: var(--palette-neutral-250);
   --color-inverse-on-surface: var(--palette-neutral-900);
-  --color-inverse-primary: var(--palette-blue-600);
+  --color-inverse-primary: var(--palette-blue-550);
 
   /* ── Background ── */
-  --color-background: var(--palette-neutral-950);
+  --color-background: var(--palette-neutral-940);
   --color-on-background: var(--palette-neutral-250);
 }
