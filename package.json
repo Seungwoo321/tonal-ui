@@ -1,0 +1,69 @@
+{
+  "name": "tonal-ui",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A tonal layering design system for editorial platforms. Surface-first UI components with CVA variants, dark mode, and CJK typography support.",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup && pnpm build:css",
+    "build:css": "npx @tailwindcss/cli -i src/styles/build-entry.css -o dist/styles.css --minify",
+    "dev": "tsup --watch",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=19",
+    "react-dom": ">=19"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.3.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^10.3.3",
+    "@storybook/react": "^10.3.3",
+    "@storybook/react-vite": "^10.3.3",
+    "@tailwindcss/cli": "^4.1.7",
+    "@tailwindcss/postcss": "^4.1.7",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tabler/icons-react": "^3.31.0",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "postcss": "^8.5.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "storybook": "^10.3.3",
+    "tailwindcss": "^4.1.7",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "keywords": [
+    "ui",
+    "design-system",
+    "tonal-layering",
+    "editorial",
+    "tailwindcss",
+    "react",
+    "dark-mode",
+    "cva"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Seungwoo321/tonal-ui"
+  }
+}

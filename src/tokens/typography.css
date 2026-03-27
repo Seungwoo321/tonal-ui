@@ -1,0 +1,92 @@
+/*
+ * Pulse Editorial Design System — Typography
+ */
+
+body {
+  line-height: 1.75;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Typography plugin overrides for design system tokens */
+.prose {
+  --tw-prose-body: var(--color-on-surface-variant);
+  --tw-prose-headings: var(--color-on-surface);
+  --tw-prose-lead: var(--color-on-surface-variant);
+  --tw-prose-links: var(--color-primary);
+  --tw-prose-bold: var(--color-on-surface);
+  --tw-prose-counters: var(--color-outline);
+  --tw-prose-bullets: var(--color-outline-variant);
+  --tw-prose-hr: var(--color-outline-variant);
+  --tw-prose-quotes: var(--color-on-surface);
+  --tw-prose-quote-borders: var(--color-outline-variant);
+  --tw-prose-captions: var(--color-outline);
+  --tw-prose-code: var(--color-primary);
+  --tw-prose-pre-code: #ffffff;
+  --tw-prose-pre-bg: var(--color-on-surface);
+  --tw-prose-th-borders: var(--color-outline-variant);
+  --tw-prose-td-borders: var(--color-outline-variant);
+}
+
+/* Stitch Editorial prose enhancements */
+.prose h2 {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+.prose h3 {
+  font-family: var(--font-headline);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.prose p {
+  margin-bottom: 1.5rem;
+  line-height: 1.85;
+}
+.prose li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.85;
+}
+.prose ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.prose ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+}
+.prose code:not(pre code) {
+  background-color: var(--color-surface-container-low);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+}
+.prose pre {
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  overflow-x: auto;
+}
+.prose pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+}

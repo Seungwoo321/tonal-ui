@@ -1,0 +1,93 @@
+/*
+ * Pulse Editorial Design System — Tailwind v4 Theme
+ * Maps CSS variables to Tailwind utility classes.
+ */
+
+@theme {
+  /* Surface hierarchy */
+  --color-surface: var(--color-surface);
+  --color-surface-bright: var(--color-surface-bright);
+  --color-surface-dim: var(--color-surface-dim);
+  --color-surface-container: var(--color-surface-container);
+  --color-surface-container-lowest: var(--color-surface-container-lowest);
+  --color-surface-container-low: var(--color-surface-container-low);
+  --color-surface-container-high: var(--color-surface-container-high);
+  --color-surface-container-highest: var(--color-surface-container-highest);
+  --color-surface-variant: var(--color-surface-variant);
+  --color-surface-tint: var(--color-surface-tint);
+
+  /* Primary */
+  --color-primary: var(--color-primary);
+  --color-primary-container: var(--color-primary-container);
+  --color-primary-fixed: var(--color-primary-fixed);
+  --color-primary-fixed-dim: var(--color-primary-fixed-dim);
+  --color-on-primary: var(--color-on-primary);
+  --color-on-primary-container: var(--color-on-primary-container);
+  --color-on-primary-fixed: var(--color-on-primary-fixed);
+  --color-on-primary-fixed-variant: var(--color-on-primary-fixed-variant);
+
+  /* Secondary */
+  --color-secondary: var(--color-secondary);
+  --color-secondary-container: var(--color-secondary-container);
+  --color-secondary-fixed: var(--color-secondary-fixed);
+  --color-secondary-fixed-dim: var(--color-secondary-fixed-dim);
+  --color-on-secondary: var(--color-on-secondary);
+  --color-on-secondary-container: var(--color-on-secondary-container);
+  --color-on-secondary-fixed: var(--color-on-secondary-fixed);
+  --color-on-secondary-fixed-variant: var(--color-on-secondary-fixed-variant);
+
+  /* Tertiary */
+  --color-tertiary: var(--color-tertiary);
+  --color-tertiary-container: var(--color-tertiary-container);
+  --color-tertiary-fixed: var(--color-tertiary-fixed);
+  --color-tertiary-fixed-dim: var(--color-tertiary-fixed-dim);
+  --color-on-tertiary: var(--color-on-tertiary);
+  --color-on-tertiary-container: var(--color-on-tertiary-container);
+  --color-on-tertiary-fixed: var(--color-on-tertiary-fixed);
+  --color-on-tertiary-fixed-variant: var(--color-on-tertiary-fixed-variant);
+
+  /* On-surface */
+  --color-on-surface: var(--color-on-surface);
+  --color-on-surface-variant: var(--color-on-surface-variant);
+
+  /* Outline */
+  --color-outline: var(--color-outline);
+  --color-outline-variant: var(--color-outline-variant);
+
+  /* Error */
+  --color-error: var(--color-error);
+  --color-error-container: var(--color-error-container);
+  --color-on-error: var(--color-on-error);
+  --color-on-error-container: var(--color-on-error-container);
+
+  /* Success */
+  --color-success: var(--color-success);
+  --color-success-container: var(--color-success-container);
+  --color-on-success: var(--color-on-success);
+  --color-on-success-container: var(--color-on-success-container);
+
+  /* Warning */
+  --color-warning: var(--color-warning);
+  --color-warning-container: var(--color-warning-container);
+  --color-on-warning: var(--color-on-warning);
+  --color-on-warning-container: var(--color-on-warning-container);
+
+  /* Info */
+  --color-info: var(--color-info);
+  --color-info-container: var(--color-info-container);
+  --color-on-info: var(--color-on-info);
+  --color-on-info-container: var(--color-on-info-container);
+
+  /* Inverse */
+  --color-inverse-surface: var(--color-inverse-surface);
+  --color-inverse-on-surface: var(--color-inverse-on-surface);
+  --color-inverse-primary: var(--color-inverse-primary);
+
+  /* Background */
+  --color-background: var(--color-background);
+  --color-on-background: var(--color-on-background);
+
+  /* Font families */
+  --font-headline: "Manrope", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+  --font-body: "Inter", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+}

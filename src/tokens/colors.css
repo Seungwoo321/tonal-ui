@@ -1,0 +1,175 @@
+/*
+ * Pulse Editorial Design System — Semantic Color Tokens
+ * Maps palette values to semantic roles.
+ * Light mode = :root, Dark mode = .dark
+ */
+
+:root {
+  /* ── Surface hierarchy ── */
+  --color-surface: var(--palette-neutral-50);
+  --color-surface-bright: var(--palette-neutral-50);
+  --color-surface-dim: var(--palette-neutral-300);
+  --color-surface-container: var(--palette-neutral-150);
+  --color-surface-container-lowest: var(--palette-neutral-0);
+  --color-surface-container-low: var(--palette-neutral-100);
+  --color-surface-container-high: var(--palette-neutral-200);
+  --color-surface-container-highest: var(--palette-neutral-250);
+  --color-surface-variant: var(--palette-neutral-250);
+  --color-surface-tint: var(--palette-blue-600);
+
+  /* ── Primary ── */
+  --color-primary: var(--palette-blue-600);
+  --color-primary-container: var(--palette-blue-500);
+  --color-primary-fixed: var(--palette-blue-100);
+  --color-primary-fixed-dim: var(--palette-blue-200);
+  --color-on-primary: var(--palette-neutral-0);
+  --color-on-primary-container: var(--palette-blue-50);
+  --color-on-primary-fixed: var(--palette-blue-900);
+  --color-on-primary-fixed-variant: var(--palette-blue-700);
+
+  /* ── Secondary ── */
+  --color-secondary: var(--palette-indigo-500);
+  --color-secondary-container: var(--palette-indigo-300);
+  --color-secondary-fixed: var(--palette-indigo-100);
+  --color-secondary-fixed-dim: var(--palette-indigo-200);
+  --color-on-secondary: var(--palette-neutral-0);
+  --color-on-secondary-container: var(--palette-indigo-600);
+  --color-on-secondary-fixed: var(--palette-indigo-900);
+  --color-on-secondary-fixed-variant: var(--palette-indigo-700);
+
+  /* ── Tertiary ── */
+  --color-tertiary: var(--palette-orange-600);
+  --color-tertiary-container: var(--palette-orange-500);
+  --color-tertiary-fixed: var(--palette-orange-100);
+  --color-tertiary-fixed-dim: var(--palette-orange-200);
+  --color-on-tertiary: var(--palette-neutral-0);
+  --color-on-tertiary-container: var(--palette-orange-50);
+  --color-on-tertiary-fixed: var(--palette-orange-900);
+  --color-on-tertiary-fixed-variant: var(--palette-orange-700);
+
+  /* ── On-surface ── */
+  --color-on-surface: var(--palette-neutral-900);
+  --color-on-surface-variant: var(--palette-neutral-700);
+
+  /* ── Outline ── */
+  --color-outline: var(--palette-neutral-600);
+  --color-outline-variant: var(--palette-neutral-400);
+
+  /* ── Error ── */
+  --color-error: var(--palette-red-500);
+  --color-error-container: var(--palette-red-100);
+  --color-on-error: var(--palette-neutral-0);
+  --color-on-error-container: var(--palette-red-600);
+
+  /* ── Success ── */
+  --color-success: var(--palette-green-600);
+  --color-success-container: var(--palette-green-100);
+  --color-on-success: var(--palette-neutral-0);
+  --color-on-success-container: var(--palette-green-700);
+
+  /* ── Warning ── */
+  --color-warning: var(--palette-yellow-600);
+  --color-warning-container: var(--palette-yellow-100);
+  --color-on-warning: var(--palette-neutral-0);
+  --color-on-warning-container: var(--palette-yellow-800);
+
+  /* ── Info ── */
+  --color-info: var(--palette-sky-600);
+  --color-info-container: var(--palette-sky-100);
+  --color-on-info: var(--palette-neutral-0);
+  --color-on-info-container: var(--palette-sky-800);
+
+  /* ── Inverse ── */
+  --color-inverse-surface: var(--palette-neutral-800);
+  --color-inverse-on-surface: var(--palette-neutral-100);
+  --color-inverse-primary: var(--palette-blue-200);
+
+  /* ── Background ── */
+  --color-background: var(--palette-neutral-50);
+  --color-on-background: var(--palette-neutral-900);
+}
+
+.dark {
+  /* ── Surface hierarchy ── */
+  --color-surface: var(--palette-neutral-950);
+  --color-surface-bright: var(--palette-neutral-875);
+  --color-surface-dim: var(--palette-neutral-950);
+  --color-surface-container: var(--palette-neutral-850);
+  --color-surface-container-lowest: var(--palette-neutral-1000);
+  --color-surface-container-low: var(--palette-neutral-900);
+  --color-surface-container-high: var(--palette-neutral-925);
+  --color-surface-container-highest: var(--palette-neutral-935);
+  --color-surface-variant: var(--palette-neutral-700);
+  --color-surface-tint: var(--palette-blue-600);
+
+  /* ── Primary ── */
+  --color-primary: var(--palette-blue-500);
+  --color-primary-container: var(--palette-blue-500);
+  --color-primary-fixed: var(--palette-blue-100);
+  --color-primary-fixed-dim: var(--palette-blue-200);
+  --color-on-primary: var(--palette-neutral-0);
+  --color-on-primary-container: var(--palette-blue-50);
+  --color-on-primary-fixed: var(--palette-blue-900);
+  --color-on-primary-fixed-variant: var(--palette-blue-700);
+
+  /* ── Secondary ── */
+  --color-secondary: var(--palette-indigo-200);
+  --color-secondary-container: var(--palette-indigo-700);
+  --color-secondary-fixed: var(--palette-indigo-100);
+  --color-secondary-fixed-dim: var(--palette-indigo-200);
+  --color-on-secondary: var(--palette-neutral-0);
+  --color-on-secondary-container: var(--palette-indigo-100);
+  --color-on-secondary-fixed: var(--palette-indigo-900);
+  --color-on-secondary-fixed-variant: var(--palette-indigo-700);
+
+  /* ── Tertiary ── */
+  --color-tertiary: var(--palette-orange-200);
+  --color-tertiary-container: var(--palette-orange-500);
+  --color-tertiary-fixed: var(--palette-orange-100);
+  --color-tertiary-fixed-dim: var(--palette-orange-200);
+  --color-on-tertiary: var(--palette-orange-800);
+  --color-on-tertiary-container: var(--palette-orange-50);
+  --color-on-tertiary-fixed: var(--palette-orange-900);
+  --color-on-tertiary-fixed-variant: var(--palette-orange-700);
+
+  /* ── On-surface ── */
+  --color-on-surface: var(--palette-neutral-250);
+  --color-on-surface-variant: var(--palette-neutral-400);
+
+  /* ── Outline ── */
+  --color-outline: var(--palette-neutral-500);
+  --color-outline-variant: var(--palette-neutral-700);
+
+  /* ── Error ── */
+  --color-error: var(--palette-red-200);
+  --color-error-container: var(--palette-red-600);
+  --color-on-error: var(--palette-neutral-0);
+  --color-on-error-container: var(--palette-red-100);
+
+  /* ── Success ── */
+  --color-success: var(--palette-green-400);
+  --color-success-container: var(--palette-green-700);
+  --color-on-success: var(--palette-neutral-0);
+  --color-on-success-container: var(--palette-green-100);
+
+  /* ── Warning ── */
+  --color-warning: var(--palette-yellow-400);
+  --color-warning-container: var(--palette-yellow-800);
+  --color-on-warning: var(--palette-neutral-0);
+  --color-on-warning-container: var(--palette-yellow-100);
+
+  /* ── Info ── */
+  --color-info: var(--palette-sky-400);
+  --color-info-container: var(--palette-sky-800);
+  --color-on-info: var(--palette-neutral-0);
+  --color-on-info-container: var(--palette-sky-100);
+
+  /* ── Inverse ── */
+  --color-inverse-surface: var(--palette-neutral-250);
+  --color-inverse-on-surface: var(--palette-neutral-900);
+  --color-inverse-primary: var(--palette-blue-600);
+
+  /* ── Background ── */
+  --color-background: var(--palette-neutral-950);
+  --color-on-background: var(--palette-neutral-250);
+}

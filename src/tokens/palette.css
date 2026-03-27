@@ -1,0 +1,119 @@
+/*
+ * Pulse Editorial Design System — Color Palette
+ * Base palette with numeric scales (50, 100, 200 ... 900, 950)
+ * Semantic tokens reference these values.
+ */
+
+:root {
+  /* ── Blue (Primary) ── */
+  --palette-blue-50: #eeefff;
+  --palette-blue-100: #dbe1ff;
+  --palette-blue-200: #b4c5ff;
+  --palette-blue-300: #8da8ff;
+  --palette-blue-400: #4d7cff;
+  --palette-blue-500: #2563eb;
+  --palette-blue-600: #004ac6;
+  --palette-blue-700: #003ea8;
+  --palette-blue-800: #002e7a;
+  --palette-blue-900: #00174b;
+  --palette-blue-950: #000d2e;
+
+  /* ── Indigo (Secondary) ── */
+  --palette-indigo-50: #eef0ff;
+  --palette-indigo-100: #dbe1ff;
+  --palette-indigo-200: #b4c5ff;
+  --palette-indigo-300: #acbfff;
+  --palette-indigo-400: #7a96d4;
+  --palette-indigo-500: #495c95;
+  --palette-indigo-600: #394c84;
+  --palette-indigo-700: #31447b;
+  --palette-indigo-800: #1f2d5a;
+  --palette-indigo-900: #00174b;
+  --palette-indigo-950: #000d2e;
+
+  /* ── Orange (Tertiary) ── */
+  --palette-orange-50: #ffede6;
+  --palette-orange-100: #ffdbcd;
+  --palette-orange-200: #ffb596;
+  --palette-orange-300: #ff9060;
+  --palette-orange-400: #e06420;
+  --palette-orange-500: #bc4800;
+  --palette-orange-600: #943700;
+  --palette-orange-700: #7d2d00;
+  --palette-orange-800: #4e1000;
+  --palette-orange-900: #360f00;
+  --palette-orange-950: #1f0800;
+
+  /* ── Neutral (Surface / On-surface) ── */
+  --palette-neutral-0: #ffffff;
+  --palette-neutral-50: #faf8ff;
+  --palette-neutral-100: #f3f3fe;
+  --palette-neutral-150: #ededf9;
+  --palette-neutral-200: #e7e7f3;
+  --palette-neutral-250: #e1e2ed;
+  --palette-neutral-300: #d9d9e5;
+  --palette-neutral-400: #c3c6d7;
+  --palette-neutral-500: #8e909f;
+  --palette-neutral-600: #737686;
+  --palette-neutral-700: #434655;
+  --palette-neutral-800: #2e3039;
+  --palette-neutral-850: #1d1e2a;
+  --palette-neutral-875: #1a1c26;
+  --palette-neutral-900: #191b23;
+  --palette-neutral-925: #282a36;
+  --palette-neutral-935: #333544;
+  --palette-neutral-950: #11141d;
+  --palette-neutral-1000: #0f111a;
+
+  /* ── Red (Error) ── */
+  --palette-red-50: #fff5f5;
+  --palette-red-100: #ffdad6;
+  --palette-red-200: #ffb4ab;
+  --palette-red-300: #ff897d;
+  --palette-red-400: #f44336;
+  --palette-red-500: #ba1a1a;
+  --palette-red-600: #93000a;
+  --palette-red-700: #7a0008;
+  --palette-red-800: #5c0005;
+  --palette-red-900: #410003;
+  --palette-red-950: #2d0002;
+
+  /* ── Green (Success) ── */
+  --palette-green-50: #f0fdf4;
+  --palette-green-100: #dcfce7;
+  --palette-green-200: #bbf7d0;
+  --palette-green-300: #86efac;
+  --palette-green-400: #4ade80;
+  --palette-green-500: #22c55e;
+  --palette-green-600: #16a34a;
+  --palette-green-700: #166534;
+  --palette-green-800: #14532d;
+  --palette-green-900: #052e16;
+  --palette-green-950: #022c22;
+
+  /* ── Yellow (Warning) ── */
+  --palette-yellow-50: #fefce8;
+  --palette-yellow-100: #fef9c3;
+  --palette-yellow-200: #fef08a;
+  --palette-yellow-300: #fde047;
+  --palette-yellow-400: #facc15;
+  --palette-yellow-500: #eab308;
+  --palette-yellow-600: #ca8a04;
+  --palette-yellow-700: #a16207;
+  --palette-yellow-800: #854d0e;
+  --palette-yellow-900: #713f12;
+  --palette-yellow-950: #422006;
+
+  /* ── Sky (Info) ── */
+  --palette-sky-50: #f0f9ff;
+  --palette-sky-100: #e0f2fe;
+  --palette-sky-200: #bae6fd;
+  --palette-sky-300: #7dd3fc;
+  --palette-sky-400: #38bdf8;
+  --palette-sky-500: #0ea5e9;
+  --palette-sky-600: #0284c7;
+  --palette-sky-700: #0369a1;
+  --palette-sky-800: #075985;
+  --palette-sky-900: #0c4a6e;
+  --palette-sky-950: #082f49;
+}
