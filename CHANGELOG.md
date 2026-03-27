@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.0-beta.0](https://github.com/Seungwoo321/tonal-ui/compare/v0.3.0...v0.4.0-beta.0) (2026-03-27)
+
+### Features
+
+* **tokens:** add intermediate color shades for improved gradients ([6cb23b2](https://github.com/Seungwoo321/tonal-ui/commit/6cb23b21252268cc7024ef1ac543c66cc4b8f486))
+
 ## [0.3.0](https://github.com/Seungwoo321/tonal-ui/compare/v0.3.0-beta.0...v0.3.0) (2026-03-27)
 
 ## [0.3.0-beta.0](https://github.com/Seungwoo321/tonal-ui/compare/v0.2.0...v0.3.0-beta.0) (2026-03-27)
