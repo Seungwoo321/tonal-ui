@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "build": "tsup && pnpm build:css",
-    "build:css": "npx @tailwindcss/cli -i src/styles/build-entry.css -o dist/styles.css --minify && npx @tailwindcss/cli -i src/styles/consumer-entry.css -o dist/tokens.css --minify",
+    "build:css": "npx @tailwindcss/cli -i src/styles/build-entry.css -o dist/styles.css --minify && node scripts/append-consumer-css.mjs && npx @tailwindcss/cli -i src/styles/consumer-entry.css -o dist/tokens.css --minify",
     "dev": "tsup --watch",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
