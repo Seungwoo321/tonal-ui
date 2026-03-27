@@ -38,19 +38,21 @@
     "@storybook/addon-a11y": "^10.3.3",
     "@storybook/react": "^10.3.3",
     "@storybook/react-vite": "^10.3.3",
+    "@tabler/icons-react": "^3.31.0",
     "@tailwindcss/cli": "^4.1.7",
     "@tailwindcss/postcss": "^4.1.7",
     "@tailwindcss/typography": "^0.5.16",
-    "@tabler/icons-react": "^3.31.0",
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react": "^6.0.1",
     "postcss": "^8.5.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "storybook": "^10.3.3",
     "tailwindcss": "^4.1.7",
     "tsup": "^8.5.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vite": "^8.0.3"
   },
   "keywords": [
     "ui",
