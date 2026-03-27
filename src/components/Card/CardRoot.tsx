@@ -5,13 +5,13 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { cn } from '../../utils/cn';
 
 const cardRootVariants = cva(
-  'rounded-lg border border-outline-variant shadow-sm',
+  'rounded-xl',
   {
     variants: {
       variant: {
         filled: 'bg-surface-container-lowest',
         elevated: 'bg-surface-container-lowest shadow-md',
-        outlined: 'bg-transparent shadow-none',
+        outlined: 'border border-outline-variant bg-transparent',
       },
       padding: {
         true: 'p-6',
