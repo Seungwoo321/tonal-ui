@@ -1,0 +1,10 @@
+/*
+ * tonal-ui Consumer Styles
+ * Tokens (palette + colors + typography) + utilities.
+ * Does NOT include @import "tailwindcss" — consumer provides their own.
+ */
+
+@import "../tokens/palette.css";
+@import "../tokens/colors.css";
+@import "../tokens/typography.css";
+@import "./utilities.css";

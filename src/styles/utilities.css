@@ -1,0 +1,54 @@
+/*
+ * Theme color utilities — always included in the build.
+ * Ensures consumer apps can use bg-surface, text-on-surface, etc.
+ * without needing @source or custom Tailwind config.
+ */
+
+/* ── Background ── */
+.bg-surface { background-color: var(--color-surface); }
+.bg-surface-bright { background-color: var(--color-surface-bright); }
+.bg-surface-dim { background-color: var(--color-surface-dim); }
+.bg-surface-variant { background-color: var(--color-surface-variant); }
+.bg-surface-tint { background-color: var(--color-surface-tint); }
+.bg-primary-fixed { background-color: var(--color-primary-fixed); }
+.bg-primary-fixed-dim { background-color: var(--color-primary-fixed-dim); }
+.bg-on-primary { background-color: var(--color-on-primary); }
+.bg-secondary-fixed { background-color: var(--color-secondary-fixed); }
+.bg-secondary-fixed-dim { background-color: var(--color-secondary-fixed-dim); }
+.bg-tertiary { background-color: var(--color-tertiary); }
+.bg-tertiary-fixed { background-color: var(--color-tertiary-fixed); }
+.bg-tertiary-fixed-dim { background-color: var(--color-tertiary-fixed-dim); }
+.bg-on-error { background-color: var(--color-on-error); }
+.bg-on-success { background-color: var(--color-on-success); }
+.bg-inverse-surface { background-color: var(--color-inverse-surface); }
+.bg-background { background-color: var(--color-background); }
+
+/* ── Text ── */
+.text-on-primary-fixed { color: var(--color-on-primary-fixed); }
+.text-on-primary-fixed-variant { color: var(--color-on-primary-fixed-variant); }
+.text-on-secondary-fixed { color: var(--color-on-secondary-fixed); }
+.text-on-secondary-fixed-variant { color: var(--color-on-secondary-fixed-variant); }
+.text-on-tertiary-fixed { color: var(--color-on-tertiary-fixed); }
+.text-on-tertiary-fixed-variant { color: var(--color-on-tertiary-fixed-variant); }
+.text-inverse-on-surface { color: var(--color-inverse-on-surface); }
+.text-inverse-primary { color: var(--color-inverse-primary); }
+.text-on-background { color: var(--color-on-background); }
+.text-surface-tint { color: var(--color-surface-tint); }
+.text-secondary { color: var(--color-secondary); }
+.text-tertiary { color: var(--color-tertiary); }
+.text-success { color: var(--color-success); }
+.text-warning { color: var(--color-warning); }
+.text-info { color: var(--color-info); }
+
+/* ── Border ── */
+.border-surface-variant { border-color: var(--color-surface-variant); }
+.border-secondary { border-color: var(--color-secondary); }
+.border-tertiary { border-color: var(--color-tertiary); }
+
+/* ── Opacity variants for bg-surface ── */
+.bg-surface\/80 { background-color: color-mix(in srgb, var(--color-surface) 80%, transparent); }
+.bg-surface\/60 { background-color: color-mix(in srgb, var(--color-surface) 60%, transparent); }
+
+/* ── Selection ── */
+.selection\:bg-primary-fixed::selection { background-color: var(--color-primary-fixed); }
+.selection\:text-on-primary-fixed::selection { color: var(--color-on-primary-fixed); }

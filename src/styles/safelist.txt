@@ -1,0 +1,35 @@
+bg-surface bg-surface-bright bg-surface-dim bg-surface-variant bg-surface-tint
+bg-surface-container bg-surface-container-lowest bg-surface-container-low
+bg-surface-container-high bg-surface-container-highest
+bg-surface/80 bg-surface/60 bg-surface-container-lowest/80
+bg-primary bg-primary-container bg-primary-fixed bg-primary-fixed-dim
+bg-secondary bg-secondary-container bg-secondary-fixed bg-secondary-fixed-dim
+bg-tertiary bg-tertiary-container bg-tertiary-fixed bg-tertiary-fixed-dim
+bg-error bg-error-container bg-success bg-success-container
+bg-warning bg-warning-container bg-info bg-info-container
+bg-inverse-surface bg-background bg-on-primary bg-on-error bg-on-success
+bg-outline-variant/15 bg-outline-variant/10
+
+text-on-surface text-on-surface-variant
+text-on-primary text-on-primary-container text-on-primary-fixed text-on-primary-fixed-variant
+text-on-secondary text-on-secondary-container text-on-secondary-fixed text-on-secondary-fixed-variant
+text-on-tertiary text-on-tertiary-container text-on-tertiary-fixed text-on-tertiary-fixed-variant
+text-on-error text-on-error-container text-on-success text-on-success-container
+text-on-warning text-on-warning-container text-on-info text-on-info-container
+text-inverse-on-surface text-on-background
+text-primary text-secondary text-tertiary text-error text-success text-warning text-info
+text-outline text-outline-variant text-inverse-primary text-surface-tint
+
+border-outline border-outline-variant
+border-outline-variant/10 border-outline-variant/15 border-outline-variant/30 border-outline-variant/40 border-outline-variant/50
+border-primary border-secondary border-tertiary
+border-error border-success border-warning border-info
+border-surface-variant border-surface-container-high border-surface-container-high/50
+
+hover:bg-surface-container hover:bg-surface-container-high hover:bg-surface-container-low
+hover:bg-primary hover:bg-primary-fixed-dim
+hover:text-on-surface hover:text-primary
+
+selection:bg-primary-fixed selection:text-on-primary-fixed
+
+font-headline font-body

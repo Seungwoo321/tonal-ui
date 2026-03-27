@@ -1,6 +1,6 @@
 {
   "name": "tonal-ui",
-  "version": "0.2.0",
+  "version": "0.3.0-beta.0",
   "type": "module",
   "description": "A tonal layering design system for editorial platforms. Surface-first UI components with CVA variants, dark mode, and CJK typography support.",
   "license": "MIT",
@@ -12,14 +12,18 @@
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
     },
-    "./styles.css": "./dist/styles.css"
+    "./styles.css": "./dist/styles.css",
+    "./theme.css": "./src/styles/consumer-theme.css",
+    "./tokens.css": "./dist/tokens.css"
   },
   "files": [
-    "dist"
+    "dist",
+    "src/styles/consumer-theme.css",
+    "src/tokens"
   ],
   "scripts": {
     "build": "tsup && pnpm build:css",
-    "build:css": "npx @tailwindcss/cli -i src/styles/build-entry.css -o dist/styles.css --minify",
+    "build:css": "npx @tailwindcss/cli -i src/styles/build-entry.css -o dist/styles.css --minify && npx @tailwindcss/cli -i src/styles/consumer-entry.css -o dist/tokens.css --minify",
     "dev": "tsup --watch",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",

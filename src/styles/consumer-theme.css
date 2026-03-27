@@ -1,0 +1,11 @@
+/*
+ * tonal-ui Consumer Theme
+ * Import this in consumer's globals.css AFTER @import "tailwindcss".
+ * Provides @theme mapping, dark variant, and typography plugin.
+ */
+
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@import "../tokens/theme.css";
