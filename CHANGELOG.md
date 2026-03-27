@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.2.0](https://github.com/Seungwoo321/tonal-ui/compare/v0.2.0-beta.0...v0.2.0) (2026-03-27)
+
 ## 0.2.0-beta.0 (2026-03-27)
 
 ### Features
